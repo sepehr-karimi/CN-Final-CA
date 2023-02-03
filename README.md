@@ -41,7 +41,11 @@ Cons: complicated with multiple timers, receiver needs a buffer to buffer out-of
 
 ### description of code:
 
+in packettools.cpp we will create the structure that is given to us in the HW.
 
+We will be using the below code for go back N.
+:
+![Alt text](gbn.jpg?raw=true "Optional Title")
 
 ### Results:
 
