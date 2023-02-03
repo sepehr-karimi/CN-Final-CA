@@ -38,6 +38,19 @@ Cons: complicated with multiple timers, receiver needs a buffer to buffer out-of
 
 ### Results:
 
+#### connecting router to Hosts:
+
+as you can see in the below pictures first we're connecting the hosts to the router.
+and as you can see all of them are connected to the router
+![Alt text](/pics/1.1.jpg?raw=true "Optional Title")
+
+![Alt text](/pics/1.2.jpg?raw=true "Optional Title")
+
+![Alt text](/pics/1.3.jpg?raw=true "Optional Title")
+
+#### Sending Files:
+
+Here we're going to show results of sending 
 
 
 ## PART 2:
@@ -59,7 +72,18 @@ Qusetions:
 1.
 
 
+### Description of Code:
 
+here is the dvrp algorithm:
+
+Using the File Router.cpp we're going to add routers
+each of the routers require an ip for adding 
+
+Using the file links.cpp we're going to add each link with the respectful cost of that.
+
+Using the file Hosts.cpp we're going to add each host with an ip for that.
+
+Using the file Graph.cpp we're going to plot the network.
 
 
 # Contributers :
