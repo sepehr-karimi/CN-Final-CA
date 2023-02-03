@@ -1,14 +1,14 @@
 # CN-Final-CA
 FINAL PROJECT OF CN
 
-##PART A: 
+## PART A: 
 
 DESCRIPTION OF PROJECT:
 here we're going to build a network and send files from host A to Host B using a router.
 we will be sending a 1 MB file and use slow start along with go back N  algorithm.
 
 
-###Questions:
+### Questions:
 
 1.
 
@@ -32,7 +32,16 @@ Pros: efficient, only lost/broken packets need retransmission
 Cons: complicated with multiple timers, receiver needs a buffer to buffer out-of-order packets
 
 
+### description of code:
+
+
+
+### Results:
+
+
+
 ## PART 2:
+### Phase one
 were going to create topology of a network and calculate min cost using DVRP algorithm
 
 
@@ -42,3 +51,19 @@ Qusetions:
 
 
 2.
+
+
+
+### phase two
+
+1.
+
+
+
+
+
+# Contributers :
+
+sepehr karimi
+
+nilufar mohammadi
