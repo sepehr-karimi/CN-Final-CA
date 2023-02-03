@@ -49,15 +49,19 @@ Cons: complicated with multiple timers, receiver needs a buffer to buffer out-of
 
 as you can see in the below pictures first we're connecting the hosts to the router.
 and as you can see all of them are connected to the router
-![Alt text](/pics/1.1.jpg?raw=true "Optional Title")
+![Alt text](1.1.jpg?raw=true "Optional Title")
 
-![Alt text](/pics/1.2.jpg?raw=true "Optional Title")
+![Alt text](1.2.jpg?raw=true "Optional Title")
 
-![Alt text](/pics/1.3.jpg?raw=true "Optional Title")
+![Alt text](1.3.jpg?raw=true "Optional Title")
 
 #### Sending Files:
 
-Here we're going to show results of sending 
+Here we're going to show results of sending the files given to us that is 1MB. we will use packet size of 1.5 kB
+
+![Alt text](2.1.jpg?raw=true "Optional Title")
+
+![Alt text](2.2.jpg?raw=true "Optional Title")
 
 
 ## PART 2:
