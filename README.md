@@ -43,8 +43,16 @@ Cons: complicated with multiple timers, receiver needs a buffer to buffer out-of
 
 in packettools.cpp we will create the structure that is given to us in the HW.
 
+so packet structure would be like:
+[isack:packetID:src_addr:dest_addr:Data]
+
+then in Router.cpp we'll have the Router initialized and then create a buffer for the router that will forwards packets with FIFO algorithm.
+
+Also in Host.cpp we''ll initialize each of the hosts as is shown in the pictures of results part, and then each of the hosts is connected through the router to each other. and we'll send the files in this part of the code.
+
 We will be using the below code for go back N.
-:
+: 
+
 ![Alt text](gbn.jpg?raw=true "Optional Title")
 
 ### Results:
@@ -53,11 +61,15 @@ We will be using the below code for go back N.
 
 as you can see in the below pictures first we're connecting the hosts to the router.
 and as you can see all of them are connected to the router
+
 ![Alt text](1.1.jpg?raw=true "Optional Title")
+
 
 ![Alt text](1.2.jpg?raw=true "Optional Title")
 
+
 ![Alt text](1.3.jpg?raw=true "Optional Title")
+
 
 #### Sending Files:
 
